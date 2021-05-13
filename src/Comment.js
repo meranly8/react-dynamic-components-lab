@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
-class Comment extends Component {
+
+export default class Comment extends Component {
     render() {
         return (
             <div className="comment">
@@ -8,5 +9,3 @@ class Comment extends Component {
         )
     }
 }
-
-export default Comment
